@@ -41,8 +41,8 @@ O **Turing Wordlee** desafia o jogador a encontrar palavras ocultas a partir de 
 ---
 
 ## 📂 Estrutura do Repositório
-* **`/src`**: Código-fonte principal (`252001154.c`).
-* **`/docs`**: Documentação e manuais do projeto.
+* **`/src`**: Código-fonte principal (`main.c`).
+* **`/output`**: Arquivos de dados e executáveis.
 * **`/screenshots`**: Registros visuais da interface do jogo.
 
 ---
@@ -51,4 +51,4 @@ O **Turing Wordlee** desafia o jogador a encontrar palavras ocultas a partir de 
 1. Certifique-se de que o arquivo `fase.txt` está na mesma pasta do executável.
 2. Compile o código usando GCC:
    ```bash
-   gcc src/252001154.c -o turing_wordlee
+   gcc src/main.c -o turing_wordlee
